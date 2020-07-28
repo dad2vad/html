@@ -1,3 +1,24 @@
+    <textarea id="json-input" autocomplete="off">
+        {
+          "id": 1001,
+          "type": "donut",
+          "name": "Cake",
+          "description": "https://www.jqueryscript.net",
+          "price": ${jsn},
+          "available": {
+            "store": 42,
+            "warehouse": 600
+          },
+          "topping": [
+            { "id": 5001, "type": "None" },
+            { "id": 5002, "type": "Glazed" },
+            { "id": 5005, "type": "Sugar" },
+            { "id": 5003, "type": "Chocolate" },
+            { "id": 5004, "type": "Maple" }
+          ]
+        }
+
+    </textarea>
 <!doctype html>
 <html>
 <head>
@@ -51,27 +72,7 @@ google_ad_height = 90;
 <script type="text/javascript"
 src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script></div>
-    <textarea id="json-input" autocomplete="off">
-        {
-          "id": 1001,
-          "type": "donut",
-          "name": "Cake",
-          "description": "https://www.jqueryscript.net",
-          "price": ${jsn},
-          "available": {
-            "store": 42,
-            "warehouse": 600
-          },
-          "topping": [
-            { "id": 5001, "type": "None" },
-            { "id": 5002, "type": "Glazed" },
-            { "id": 5005, "type": "Sugar" },
-            { "id": 5003, "type": "Chocolate" },
-            { "id": 5004, "type": "Maple" }
-          ]
-        }
 
-    </textarea>
     <button id="translate">Translate</button>
     <pre id="json-display"></pre>
 
