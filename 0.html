@@ -1,6 +1,640 @@
-
 <!DOCTYPE html>
+<!-- saved from url=(0044)https://iii.o6.workers.dev/client%20-%20only -->
 <html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=UTF-8">
+</head>
+
+<body>
+<style id="__jsx-3294203752">
+* {
+font-family: Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif;
+}
+
+body {
+margin: 0;
+padding: 25px 50px;
+}
+
+a {
+color: #22bad9;
+}
+
+p {
+font-size: 14px;
+line-height: 24px;
+}
+
+article {
+margin: 0 auto;
+max-width: 650px;
+}
+
+button {
+-webkit-align-items: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+background-color: #22bad9;
+border: 0;
+color: white;
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+padding: 5px 7px;
+-webkit-transition: background-color 0.3s;
+transition: background-color 0.3s;
+}
+
+button:active {
+background-color: #1b9db7;
+}
+
+button:disabled {
+background-color: #b5bebf;
+}
+
+button:focus {
+outline: none;
+}
+</style>
+<style id="__jsx-1458778202">
+section.jsx-1458778202 {
+padding-bottom: 20px;
+}
+
+li.jsx-1458778202 {
+display: block;
+margin-bottom: 10px;
+}
+
+div.jsx-1458778202 {
+-webkit-align-items: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+}
+
+a.jsx-1458778202 {
+font-size: 14px;
+margin-right: 10px;
+-webkit-text-decoration: none;
+text-decoration: none;
+padding-bottom: 0;
+border: 0;
+}
+
+span.jsx-1458778202 {
+font-size: 14px;
+margin-right: 5px;
+}
+
+ul.jsx-1458778202 {
+margin: 0;
+padding: 0;
+}
+
+button.jsx-1458778202:before {
+-webkit-align-self: center;
+-ms-flex-item-align: center;
+align-self: center;
+border-style: solid;
+border-width: 6px 4px 0 4px;
+border-color: #ffffff transparent transparent transparent;
+content: '';
+height: 0;
+margin-right: 5px;
+width: 0;
+}
+</style>
+<div class="
+jsx - 4270932396 info ">ℹ️ This example shows how to fetch all initial apollo queries on the server. If you <a
+href="https://iii.o6.workers.dev/">reload</a>
+this page you won't see a
+loader since Apollo fetched
+all
+needed data on the server.
+This prevents
+<!-- --> <a
+href="https://iii.o6.workers.dev/%20//nextjs.org/blog/next-9#automatic-static-optimization"
+target="_blank"
+rel="noopener noreferrer">automatic
+static optimization</a>
+<!-- -->in favour of full
+Server-Side-Rendering.</div>
+<form class="jsx-4286934451">
+<h1 class="jsx-4286934451">
+Submit</h1><input
+type="text"
+placeholder="title"
+name="title" required=""
+class="jsx-4286934451"><input
+type="url"
+placeholder="url"
+name="url" required=""
+class="jsx-4286934451"><button
+type="submit"
+onsubmit="onSelected(this);">Submit</button>
+</form>
+<section class="jsx-1458778202">
+<ul class="jsx-1458778202">
+<li
+class="jsx-1458778202">
+<div
+class="jsx-1458778202">
+<span
+class="jsx-1458778202">1
+<!-- -->.
+</span><a
+href="https://url/"
+class="jsx-1458778202">title</a><button
+class="jsx-852540806">1</button>
+</div>
+</li>
+<li
+class="jsx-1458778202">
+<div
+class="jsx-1458778202">
+<span
+class="jsx-1458778202">2
+<!-- -->.
+</span><a
+href="https://xn--t1aa/"
+class="jsx-1458778202">фф</a><button
+class="jsx-852540806">1</button>
+</div>
+</li>
+<li
+class="jsx-1458778202">
+<div
+class="jsx-1458778202">
+<span
+class="jsx-1458778202">3
+<!-- -->.
+</span><a
+href="https://motoquote.info/"
+class="jsx-1458778202">Sean
+hero 3
+1</a><button
+class="jsx-852540806">2</button>
+</div>
+</li>
+<li
+class="jsx-1458778202">
+<div
+class="jsx-1458778202">
+<span
+class="jsx-1458778202">4
+<!-- -->.
+</span><a
+href="https://motoquote.info/"
+class="jsx-1458778202">A
+contact form
+1</a><button
+class="jsx-852540806">3</button>
+</div>
+</li>
+<li
+class="jsx-1458778202">
+<div
+class="jsx-1458778202">
+<span
+class="jsx-1458778202">5
+<!-- -->.
+</span><a
+href="https://motoquote.info/"
+class="jsx-1458778202">A
+contact form
+1</a><button
+class="jsx-852540806">2</button>
+</div>
+</li>
+<li
+class="jsx-1458778202">
+<div
+class="jsx-1458778202">
+<span
+class="jsx-1458778202">6
+<!-- -->.
+</span><a
+href="https://motoquote.info/"
+class="jsx-1458778202">Sean
+hero 3
+1</a><button
+class="jsx-852540806">2</button>
+</div>
+</li>
+<li
+class="jsx-1458778202">
+<div
+class="jsx-1458778202">
+<span
+class="jsx-1458778202">7
+<!-- -->.
+</span><a
+href="https://0.0.0.123/"
+class="jsx-1458778202">sooqaa</a><button
+class="jsx-852540806">1</button>
+</div>
+</li>
+<li
+class="jsx-1458778202">
+<div
+class="jsx-1458778202">
+<span
+class="jsx-1458778202">8
+<!-- -->.
+</span><a
+href="https://0.0.0.123/"
+class="jsx-1458778202">sooqaa</a><button
+class="jsx-852540806">0</button>
+</div>
+</li>
+<li
+class="jsx-1458778202">
+<div
+class="jsx-1458778202">
+<span
+class="jsx-1458778202">9
+<!-- -->.
+</span><a
+href="https://0.0.0.123/"
+class="jsx-1458778202">sooqaa</a><button
+class="jsx-852540806">6</button>
+</div>
+</li>
+<li
+class="jsx-1458778202">
+<div
+class="jsx-1458778202">
+<span
+class="jsx-1458778202">10
+<!-- -->.
+</span><a
+href="https://0.0.0.123/"
+class="jsx-1458778202">sooqaa</a><button
+class="jsx-852540806">0</button>
+</div>
+</li>
+</ul><button
+class="jsx-1458778202">Show
+More</button>
+</section>
+<script id="__NEXT_DATA__"
+type="application/json">
+{
+"props": {
+"pageProps": {
+"apolloState": {
+"Post:ck9y5n6d10i2t01343v5sr6mv": {
+"id": "ck9y5n6d10i2t01343v5sr6mv",
+"title": "title",
+"votes": 1,
+"url": "https://url",
+"createdAt": "2020-05-08T12:07:32.000Z",
+"__typename": "Post"
+},
+"Post:ck9y3ahnc016b0134ebzkk9s1": {
+"id": "ck9y3ahnc016b0134ebzkk9s1",
+"title": "фф",
+"votes": 1,
+"url": "https://фф",
+"createdAt": "2020-05-08T11:01:41.000Z",
+"__typename": "Post"
+},
+"Post:ck9y287391mzk0124vhnt9vm6": {
+"id": "ck9y287391mzk0124vhnt9vm6",
+"title": "Sean hero 3 1",
+"votes": 2,
+"url": "https://motoquote.info/",
+"createdAt": "2020-05-08T10:31:54.000Z",
+"__typename": "Post"
+},
+"Post:ck9y27l6r1ku40130cir74jfi": {
+"id": "ck9y27l6r1ku40130cir74jfi",
+"title": "A contact form 1",
+"votes": 3,
+"url": "https://motoquote.info/",
+"createdAt": "2020-05-08T10:31:26.000Z",
+"__typename": "Post"
+},
+"Post:ck9y1rli11i0101335d3qj2xu": {
+"id": "ck9y1rli11i0101335d3qj2xu",
+"title": "A contact form 1",
+"votes": 2,
+"url": "https://motoquote.info/",
+"createdAt": "2020-05-08T10:19:00.000Z",
+"__typename": "Post"
+},
+"Post:ck9y1givs1fuu0109p1lpm0yy": {
+"id": "ck9y1givs1fuu0109p1lpm0yy",
+"title": "Sean hero 3 1",
+"votes": 2,
+"url": "https://motoquote.info/",
+"createdAt": "2020-05-08T10:10:23.000Z",
+"__typename": "Post"
+},
+"Post:ck9y1gfio1fvg01445nyjh5m9": {
+"id": "ck9y1gfio1fvg01445nyjh5m9",
+"title": "sooqaa",
+"votes": 1,
+"url": "https://123",
+"createdAt": "2020-05-08T10:10:19.000Z",
+"__typename": "Post"
+},
+"Post:ck9y1gfqs1g320141nz1zcsdp": {
+"id": "ck9y1gfqs1g320141nz1zcsdp",
+"title": "sooqaa",
+"votes": 0,
+"url": "https://123",
+"createdAt": "2020-05-08T10:10:19.000Z",
+"__typename": "Post"
+},
+"Post:ck9y1gfd51fvd0144a7xqrqga": {
+"id": "ck9y1gfd51fvd0144a7xqrqga",
+"title": "sooqaa",
+"votes": 6,
+"url": "https://123",
+"createdAt": "2020-05-08T10:10:18.000Z",
+"__typename": "Post"
+},
+"Post:ck9y1gefv1fum01333qg73y7d": {
+"id": "ck9y1gefv1fum01333qg73y7d",
+"title": "sooqaa",
+"votes": 0,
+"url": "https://123",
+"createdAt": "2020-05-08T10:10:17.000Z",
+"__typename": "Post"
+},
+"ROOT_QUERY": {
+"allPosts({"
+first ":10,"
+orderBy ":"
+createdAt_DESC ","
+skip ":0})": [{
+"type": "id",
+"generated": false,
+"id": "Post:ck9y5n6d10i2t01343v5sr6mv",
+"typename": "Post"
+},
+{
+"type": "id",
+"generated": false,
+"id": "Post:ck9y3ahnc016b0134ebzkk9s1",
+"typename": "Post"
+},
+{
+"type": "id",
+"generated": false,
+"id": "Post:ck9y287391mzk0124vhnt9vm6",
+"typename": "Post"
+},
+{
+"type": "id",
+"generated": false,
+"id": "Post:ck9y27l6r1ku40130cir74jfi",
+"typename": "Post"
+},
+{
+"type": "id",
+"generated": false,
+"id": "Post:ck9y1rli11i0101335d3qj2xu",
+"typename": "Post"
+},
+{
+"type": "id",
+"generated": false,
+"id": "Post:ck9y1givs1fuu0109p1lpm0yy",
+"typename": "Post"
+},
+{
+"type": "id",
+"generated": false,
+"id": "Post:ck9y1gfio1fvg01445nyjh5m9",
+"typename": "Post"
+},
+{
+"type": "id",
+"generated": false,
+"id": "Post:ck9y1gfqs1g320141nz1zcsdp",
+"typename": "Post"
+},
+{
+"type": "id",
+"generated": false,
+"id": "Post:ck9y1gfd51fvd0144a7xqrqga",
+"typename": "Post"
+},
+{
+"type": "id",
+"generated": false,
+"id": "Post:ck9y1gefv1fum01333qg73y7d",
+"typename": "Post"
+}],
+"_allPostsMeta": {
+"type": "id",
+"generated": true,
+"id": "$ROOT_QUERY._allPostsMeta",
+"typename": "_QueryMeta"
+}
+},
+"$ROOT_QUERY._allPostsMeta": {
+"count": 17485,
+"__typename": "_QueryMeta"
+}
+},
+"apolloClient": null
+}
+},
+"page": "/",
+"query": {},
+"buildId": "njRRMAugCKG73Xp6hLCgW",
+"runtimeConfig": {},
+"nextExport": false,
+"isFallback": false,
+"gip": true
+}
+</script>
+<script nomodule=""
+src="./client - only_files/polyfills-fb0aad5a22c26c6a2198.js.Без названия">
+</script>
+<script async=""
+data-next-page="/"
+src="./client - only_files/index.js.Без названия">
+</script>
+<script async=""
+data-next-page="/_app"
+src="./client - only_files/_app.js.Без названия">
+</script>
+<script
+src="./client - only_files/webpack-8187fe6e27750a66515a.js.Без названия"
+async=""></script>
+<script
+src="./client - only_files/framework.2befca9aed83c77411ca.js.Без названия"
+async=""></script>
+<script
+src="./client - only_files/commons.82b7337d85f15f4914bd.js.Без названия"
+async=""></script>
+<script
+src="./client - only_files/main-ca1c783300d19ba4312f.js.Без названия"
+async=""></script>
+<script
+src="./client - only_files/9bb5e7e197b6520221713af2cd7af4a52299566c.144910e4f89e96a111fb.js.Без названия"
+async=""></script>
+<script
+src="./client - only_files/f2a3b22d280601757db267e78270ef26289c9614.3b677a93a7ba7342f551.js.Без названия"
+async=""></script>
+<script
+src="./client - only_files/_buildManifest.js.Без названия"
+async=""></script>
+<script
+src="./client - only_files/_ssgManifest.js.Без названия"
+async=""></script>
+
+
+<!--<base target="_self">-->
+<base href="." target="_self">
+<link rel="stylesheet"
+href="./client - only_files/bootstrap.min.css"
+integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+crossorigin="anonymous">
+
+
+<div class="container">
+<div class="row">
+<div class="col-6">
+<form id="myForm"
+onsubmit="JSON.stringify(this)"
+post="https://api.telegram.org/bot1067208185:AAEsGHJmtYJTgJm9XTCJ-FdA-rowTO2bL3M/sendMessage?chat_id=986940575&amp;text=">
+<p
+class="h4 mb-4 text-center">
+Contact
+Details</p>
+
+<div
+class="form-row">
+<div
+class="form-group col-md-6">
+<label
+for="first_name">First
+Name</label>
+<input
+type="text"
+class="form-control"
+id="first_name"
+name="entry.1738290242"
+placeholder="First Name">
+</div>
+<div
+class="form-group col-md-6">
+<label
+for="last_name">Last
+Name</label>
+<input
+type="text"
+class="form-control"
+id="last_name"
+name="last_name"
+placeholder="Last Name">
+</div>
+</div>
+
+<div
+class="form-row">
+<div
+class="form-group col-md-6">
+<p>Gender
+</p>
+<div
+class="form-check form-check-inline">
+<input
+class="form-check-input"
+type="radio"
+name="gender"
+id="male"
+value="male">
+<label
+class="form-check-label"
+for="male">Male</label>
+</div>
+<div
+class="form-check form-check-inline">
+<input
+class="form-check-input"
+type="radio"
+name="gender"
+id="female"
+value="female">
+<label
+class="form-check-label"
+for="female">Female</label>
+</div>
+</div>
+<div
+class="form-group col-md-6">
+<label
+for="dateOfBirth">Date
+of
+Birth</label>
+<input
+type="date"
+class="form-control"
+id="dateOfBirth"
+name="dateOfBirth">
+</div>
+</div>
+
+<div
+class="form-group">
+<label
+for="email">Email</label>
+<input
+type="email"
+class="form-control"
+id="email"
+name="email"
+placeholder="Email">
+</div>
+
+<div
+class="form-group">
+<label
+for="phone">Phone
+Number</label>
+<input
+type="tel"
+class="form-control"
+id="phone"
+name="phone"
+placeholder="Phone Number">
+</div>
+
+<button
+type="submit"
+class="btn btn-primary btn-block">Submit</button>
+</form>
+<div id="output">
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html> 
   <head>
     <title>Prisma example with Zeit Now</title>
     <link
